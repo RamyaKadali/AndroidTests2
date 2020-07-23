@@ -104,14 +104,6 @@
 					variablename="varMobileDevice">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="NewColumn"
-					datasourceid="382333e3-098a-447f-8309-edf922a106a7"
-					variableid="45a6f65b-113d-435d-9662-ab20f4d8343f"
-					variablename="varMobileDevice">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testcase
 			datasource="NewConnector1"
@@ -287,7 +279,7 @@
 				</tr>
 				<tr>
 					<td>
-						SM-G960F
+						Pixel 3 XL
 					</td>
 					<td>
 						Pixel 3 XL

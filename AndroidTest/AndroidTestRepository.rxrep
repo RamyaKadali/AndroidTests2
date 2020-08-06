@@ -147,6 +147,26 @@ name="AndroidTestRepository">
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.vodafone.viewer']/form[@title='(none)']/androidelement/androidelement/androidelement[5]/container[@rid='content']/container[@containertype='Relative']/text[@rid='title']
 			</item>
+			<item
+			addcaps="text,androidelement,mobileuielement"
+			capname="text"
+			id="a55bc788-449f-48e9-90e7-4c673ef1d8a4"
+			name="Passworc"
+			refimgid="8af2361e-6b6e-4f5a-aaa4-b8725e451eaf"
+			refpath="/mobileapp[@title='com.vodafone.viewer']/form[@title='Enter the password']/container[@rid='content']/androidelement/container[3]/container[@rid='custom']/androidelement/androidelement[2]/container[@containertype='Frame']/text"
+			searchtimeout="30000ms">
+				/mobileapp[@title='com.vodafone.viewer']/form[@title='Enter the password']/container[@rid='content']/androidelement/container[3]/container[@rid='custom']/androidelement/androidelement[2]/container[@containertype='Frame']/text
+			</item>
+			<item
+			addcaps="button,androidelement,mobileuielement"
+			capname="button"
+			id="a4ea7417-fef9-461f-8e54-55a09dac9495"
+			name="Connect_Button1"
+			refimgid="18f9733c-f73c-4730-9889-17901e847b75"
+			refpath="/mobileapp[@title='com.vodafone.viewer']/form[@title='Enter the password']/container[@rid='content']/androidelement/container[@containertype='ScrollView']/androidelement/button[@rid='button1']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='com.vodafone.viewer']/form[@title='Enter the password']/container[@rid='content']//button[@rid='button1']
+			</item>
 			<basepath>
 				/mobileapp[@title='com.vodafone.viewer']
 			</basepath>

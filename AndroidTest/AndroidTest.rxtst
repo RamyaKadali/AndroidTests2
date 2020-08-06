@@ -19,12 +19,6 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
-			id="1b520a5c-9da3-458e-86dc-91b2849281a7"
-			name="LoginModule"
-			ref="afc07735-f5b8-4fe6-8441-f1da6122ff81"
-			type="Recording">
-			</testmodule>
-			<testmodule
 			id="24c9c658-def0-4457-86e0-1552c4fe7d68"
 			name="Delay2s"
 			ref="7641718b-b040-4a60-8281-c498d07342da"
@@ -34,6 +28,18 @@
 			id="252fc16f-d53d-411a-8df8-47e5508f5d56"
 			name="Logout_Homepage"
 			ref="30f2c18a-3453-42db-ba1e-1a2dcdbc0c1e"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="29080d6b-490f-49d2-aa82-cab8ce80ac7a"
+			name="Delay2s"
+			ref="7641718b-b040-4a60-8281-c498d07342da"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="2f3e8215-c397-4de9-aa03-5a0fd889c889"
+			name="Passwordviaconnect"
+			ref="b3112a88-8dd8-4037-9652-6c198e41bed3"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -74,6 +80,12 @@
 			reportwriteinterval="30000ms">
 			</testsuite>
 			<testmodule
+			id="4bdca876-3fd1-46d8-80ce-b4de1b0c093f"
+			name="Connect_Click"
+			ref="2c8cb06b-7b41-487b-9b91-e7f71da2364a"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="51a47bc2-8af8-45c9-a29f-1ddd05bc530e"
 			name="Delay2s"
 			ref="7641718b-b040-4a60-8281-c498d07342da"
@@ -86,9 +98,33 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="64c3458d-a1a0-4a91-b232-2ca8a35e39c6"
+			name="Logout_Homepage"
+			ref="30f2c18a-3453-42db-ba1e-1a2dcdbc0c1e"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="686afc64-d05c-4d29-91bc-fbd776fd1994"
+			name="Connect_Button"
+			ref="0e60b89d-9402-46f1-ab47-e390506e3e02"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="6c3c734b-7b74-4585-bf14-28e7a636d5d4"
+			name="Next_Click"
+			ref="e44b02d4-9887-4544-adbc-cabcf1b8bf23"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="7082c949-2ef1-42e3-85c4-f17e334d76f4"
 			name="CloseVBS"
 			ref="65eb6c5e-3de7-47ee-a947-c5804750c271"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="94d354f9-73bf-4b0a-94a3-5266876e604e"
+			name="Connect_Click"
+			ref="2c8cb06b-7b41-487b-9b91-e7f71da2364a"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -108,7 +144,7 @@
 			<testcase
 			datasource="NewConnector1"
 			id="a351ec1d-b2c1-43ba-bb2e-59b408643893"
-			name="TestCase">
+			name="Login_VBS_using_Connect_Button">
 			</testcase>
 			<testcase
 			id="a945aceb-bf6b-42ad-96f6-53a7560977ce"
@@ -118,8 +154,14 @@
 			<testcase
 			datasource="NewConnector1"
 			id="b2065214-8661-4ff1-be49-1153838fe3e2"
-			name="Login-VBS">
+			name="Login_VBS_using_Manage_Button">
 			</testcase>
+			<testmodule
+			id="b9ff28c0-4968-4ae8-939c-96c4b65d6895"
+			name="Password_Enter"
+			ref="6615c7ed-27ac-4549-8f86-60488f79b0e7"
+			type="Recording">
+			</testmodule>
 			<teardown
 			id="c1a7b8fc-64b6-4b2f-add0-b90510f71e8f"
 			name="teardown">
@@ -129,9 +171,21 @@
 			name="teardown">
 			</teardown>
 			<testmodule
+			id="c6b4bcc7-c724-4796-9788-9ed52d7a527a"
+			name="ViewOptions_HomePage"
+			ref="b94c2b73-fd9c-4d42-a69c-7ddf34679419"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="c750a26e-95e4-4608-a572-1bee5a20ca37"
 			name="ClickOK_DoNotShowMsgAgain"
 			ref="5cb2a78f-e3a4-448c-b3e8-8d4c03d4e21e"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="d95697a4-bc81-4889-866d-53ffd9adc093"
+			name="Enter_Username"
+			ref="3531736e-cbbc-4e98-b0ee-caeaf72c05ce"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -154,6 +208,12 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="fc86c249-2607-434d-84b5-fe660e345981"
+			name="ClickOK_DoNotShowMsgAgain"
+			ref="5cb2a78f-e3a4-448c-b3e8-8d4c03d4e21e"
+			type="Recording">
+			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -164,7 +224,7 @@
 				name="AndroidTest">
 					<testcase
 					id="b2065214-8661-4ff1-be49-1153838fe3e2"
-					name="Login-VBS">
+					name="Login_VBS_using_Manage_Button">
 						<setup
 						id="0d36d85c-e692-4c60-b635-e800a9dac748"
 						name="setup">
@@ -180,6 +240,22 @@
 						<testmodule
 						id="ea696ed6-0b6d-4d1c-9ba9-be68e524f7d7"
 						name="LoginModule">
+						</testmodule>
+						<testmodule
+						id="d95697a4-bc81-4889-866d-53ffd9adc093"
+						name="Enter_Username">
+						</testmodule>
+						<testmodule
+						id="b9ff28c0-4968-4ae8-939c-96c4b65d6895"
+						name="Password_Enter">
+						</testmodule>
+						<testmodule
+						id="6c3c734b-7b74-4585-bf14-28e7a636d5d4"
+						name="Next_Click">
+						</testmodule>
+						<testmodule
+						id="4bdca876-3fd1-46d8-80ce-b4de1b0c093f"
+						name="Connect_Click">
 						</testmodule>
 						<testmodule
 						id="51a47bc2-8af8-45c9-a29f-1ddd05bc530e"
@@ -216,7 +292,7 @@
 					</testcase>
 					<testcase
 					id="a351ec1d-b2c1-43ba-bb2e-59b408643893"
-					name="TestCase">
+					name="Login_VBS_using_Connect_Button">
 						<setup
 						id="3c2b5fdd-20da-489e-8cdb-e3f252d0b45c"
 						name="setup">
@@ -224,11 +300,35 @@
 							id="30fbfd3c-0d69-4ae5-aae6-b192a68ea7b5"
 							name="StartVBS">
 							</testmodule>
-							<testmodule
-							id="1b520a5c-9da3-458e-86dc-91b2849281a7"
-							name="LoginModule">
-							</testmodule>
 						</setup>
+						<testmodule
+						id="94d354f9-73bf-4b0a-94a3-5266876e604e"
+						name="Connect_Click">
+						</testmodule>
+						<testmodule
+						id="2f3e8215-c397-4de9-aa03-5a0fd889c889"
+						name="Passwordviaconnect">
+						</testmodule>
+						<testmodule
+						id="686afc64-d05c-4d29-91bc-fbd776fd1994"
+						name="Connect_Button">
+						</testmodule>
+						<testmodule
+						id="29080d6b-490f-49d2-aa82-cab8ce80ac7a"
+						name="Delay2s">
+						</testmodule>
+						<testmodule
+						id="fc86c249-2607-434d-84b5-fe660e345981"
+						name="ClickOK_DoNotShowMsgAgain">
+						</testmodule>
+						<testmodule
+						id="c6b4bcc7-c724-4796-9788-9ed52d7a527a"
+						name="ViewOptions_HomePage">
+						</testmodule>
+						<testmodule
+						id="64c3458d-a1a0-4a91-b232-2ca8a35e39c6"
+						name="Logout_Homepage">
+						</testmodule>
 						<teardown
 						id="c1a7b8fc-64b6-4b2f-add0-b90510f71e8f"
 						name="teardown">

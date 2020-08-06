@@ -100,22 +100,6 @@ namespace AndroidTest
             repo.ComVodafoneViewer.LoginActivity.Edit_Click.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to 'Ramya' on item 'ComVodafoneViewer.Content.EnterUsername'.", repo.ComVodafoneViewer.Content.EnterUsernameInfo, new RecordItemIndex(2));
-            repo.ComVodafoneViewer.Content.EnterUsername.Element.SetAttributeValue("Text", "Ramya");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to 'Hunsvi' on item 'ComVodafoneViewer.Content.EnterPassword'.", repo.ComVodafoneViewer.Content.EnterPasswordInfo, new RecordItemIndex(3));
-            repo.ComVodafoneViewer.Content.EnterPassword.Element.SetAttributeValue("Text", "Hunsvi");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComVodafoneViewer.Content.Next_Click' at Center", repo.ComVodafoneViewer.Content.Next_ClickInfo, new RecordItemIndex(4));
-            repo.ComVodafoneViewer.Content.Next_Click.Touch();
-            Delay.Milliseconds(300);
-            
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComVodafoneViewer.LoginActivity.Connect_Click' at Center", repo.ComVodafoneViewer.LoginActivity.Connect_ClickInfo, new RecordItemIndex(5));
-            repo.ComVodafoneViewer.LoginActivity.Connect_Click.Touch();
-            Delay.Milliseconds(300);
-            
         }
 
 #region Image Feature Data

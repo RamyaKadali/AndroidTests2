@@ -91,6 +91,8 @@ namespace AndroidTest
             RepoItemInfo _homeInfo;
             RepoItemInfo _viewoptions_clickInfo;
             RepoItemInfo _logout_homepageInfo;
+            RepoItemInfo _passworcInfo;
+            RepoItemInfo _connect_button1Info;
 
             /// <summary>
             /// Creates a new ComVodafoneViewer  folder.
@@ -104,6 +106,8 @@ namespace AndroidTest
                 _homeInfo = new RepoItemInfo(this, "Home", "form[@title='HomeScreenActivity']/androidelement[@rid='content']/androidelement/androidelement[1]/androidelement[1]/androidelement[2]/container[1]/container[@containertype='Linear']/text", 30000, null, "c4370b5a-0254-475d-9312-aa8da3ff834c");
                 _viewoptions_clickInfo = new RepoItemInfo(this, "ViewOptions_Click", "form[@title='HomeScreenActivity']/androidelement[@rid='content']/androidelement/androidelement[1]/androidelement[1]/androidelement[1]/container[@containertype='Relative']/picture", 30000, null, "6dd36ce4-575b-4bb2-9765-bfa691e52e22");
                 _logout_homepageInfo = new RepoItemInfo(this, "Logout_Homepage", "form[@title='(none)']/androidelement/androidelement/androidelement[5]/container[@rid='content']/container[@containertype='Relative']/text[@rid='title']", 30000, null, "024f333e-cedc-46f3-8e94-03952f424d71");
+                _passworcInfo = new RepoItemInfo(this, "Passworc", "form[@title='Enter the password']/container[@rid='content']/androidelement/container[3]/container[@rid='custom']/androidelement/androidelement[2]/container[@containertype='Frame']/text", 30000, null, "a55bc788-449f-48e9-90e7-4c673ef1d8a4");
+                _connect_button1Info = new RepoItemInfo(this, "Connect_Button1", "form[@title='Enter the password']/container[@rid='content']//button[@rid='button1']", 30000, null, "a4ea7417-fef9-461f-8e54-55a09dac9495");
             }
 
             /// <summary>
@@ -223,6 +227,54 @@ namespace AndroidTest
                 get
                 {
                     return _logout_homepageInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Passworc item.
+            /// </summary>
+            [RepositoryItem("a55bc788-449f-48e9-90e7-4c673ef1d8a4")]
+            public virtual Ranorex.Text Passworc
+            {
+                get
+                {
+                    return _passworcInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Passworc item info.
+            /// </summary>
+            [RepositoryItemInfo("a55bc788-449f-48e9-90e7-4c673ef1d8a4")]
+            public virtual RepoItemInfo PassworcInfo
+            {
+                get
+                {
+                    return _passworcInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Connect_Button1 item.
+            /// </summary>
+            [RepositoryItem("a4ea7417-fef9-461f-8e54-55a09dac9495")]
+            public virtual Ranorex.Button Connect_Button1
+            {
+                get
+                {
+                    return _connect_button1Info.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Connect_Button1 item info.
+            /// </summary>
+            [RepositoryItemInfo("a4ea7417-fef9-461f-8e54-55a09dac9495")]
+            public virtual RepoItemInfo Connect_Button1Info
+            {
+                get
+                {
+                    return _connect_button1Info;
                 }
             }
 

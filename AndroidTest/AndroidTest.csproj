@@ -155,6 +155,30 @@
       <UserCode>true</UserCode>
       <id>851504ac-5794-411c-8e5a-6592416f4776</id>
     </Compile>
+    <Compile Include="Connect_Button.cs">
+      <BoundTo>b898235b-96a6-4d91-ad36-cc2a1ef3e591</BoundTo>
+      <DependentUpon>Connect_Button.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>35e81a8d-452f-4b6c-9f64-e68ba1dac173</id>
+    </Compile>
+    <Compile Include="Connect_Button.UserCode.cs">
+      <BoundTo>b898235b-96a6-4d91-ad36-cc2a1ef3e591</BoundTo>
+      <DependentUpon>Connect_Button.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f5930bbc-d2b2-4e6f-bba1-94b18b370d1b</id>
+    </Compile>
+    <Compile Include="Connect_Click.cs">
+      <BoundTo>080f185a-1abf-473e-a346-d69ebe23bdcb</BoundTo>
+      <DependentUpon>Connect_Click.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8398d6d1-e2c5-45ec-8f21-c9e42d0f8026</id>
+    </Compile>
+    <Compile Include="Connect_Click.UserCode.cs">
+      <BoundTo>080f185a-1abf-473e-a346-d69ebe23bdcb</BoundTo>
+      <DependentUpon>Connect_Click.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5c5c637c-e188-4c1d-a7e9-8c96de763486</id>
+    </Compile>
     <Compile Include="Delay2s.cs">
       <BoundTo>386e38cc-9d46-429d-a317-8036ef54e19a</BoundTo>
       <DependentUpon>Delay2s.rxrec</DependentUpon>
@@ -166,6 +190,30 @@
       <DependentUpon>Delay2s.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>3b227892-0867-4b97-bdd4-b0b243155dd0</id>
+    </Compile>
+    <Compile Include="Enter_Credentials.cs">
+      <BoundTo>916723f0-7266-4640-b0e8-000ce5d73eed</BoundTo>
+      <DependentUpon>Enter_Credentials.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7aa459a8-396d-4416-95d0-b2d4cffb8cec</id>
+    </Compile>
+    <Compile Include="Enter_Credentials.UserCode.cs">
+      <BoundTo>916723f0-7266-4640-b0e8-000ce5d73eed</BoundTo>
+      <DependentUpon>Enter_Credentials.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3a3e9c3a-a1b3-4c0d-8727-0e91f2304434</id>
+    </Compile>
+    <Compile Include="Enter_Username.cs">
+      <BoundTo>4c10bca0-4f13-4496-88c8-930c3c6072dd</BoundTo>
+      <DependentUpon>Enter_Username.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d5273ebc-3ef6-48bb-8880-890c2c0be494</id>
+    </Compile>
+    <Compile Include="Enter_Username.UserCode.cs">
+      <BoundTo>4c10bca0-4f13-4496-88c8-930c3c6072dd</BoundTo>
+      <DependentUpon>Enter_Username.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9add3228-7fff-40a6-b29c-93c3ba6557e7</id>
     </Compile>
     <Compile Include="LoginModule.cs">
       <BoundTo>52bd581d-4b26-4e29-bb71-a5f3219123ba</BoundTo>
@@ -190,6 +238,42 @@
       <DependentUpon>Logout_Homepage.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>0010794e-9021-4543-b47b-864d887e9b6a</id>
+    </Compile>
+    <Compile Include="Next_Click.cs">
+      <BoundTo>73e5c242-ce0e-4282-9f3d-e8ff799ed7c9</BoundTo>
+      <DependentUpon>Next_Click.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5b3dded5-489d-49cf-920b-87fc6aab2dcb</id>
+    </Compile>
+    <Compile Include="Next_Click.UserCode.cs">
+      <BoundTo>73e5c242-ce0e-4282-9f3d-e8ff799ed7c9</BoundTo>
+      <DependentUpon>Next_Click.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>38c0f0e0-2e72-46d1-b950-5fdc2437f5d6</id>
+    </Compile>
+    <Compile Include="Passwordviaconnect.cs">
+      <BoundTo>beb66423-aa33-4589-9fa0-7d82402a9794</BoundTo>
+      <DependentUpon>Passwordviaconnect.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0c885cf4-cc63-4d9c-85ce-b27fc90468fa</id>
+    </Compile>
+    <Compile Include="Passwordviaconnect.UserCode.cs">
+      <BoundTo>beb66423-aa33-4589-9fa0-7d82402a9794</BoundTo>
+      <DependentUpon>Passwordviaconnect.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bd654859-bbeb-42cf-aef5-05ec5a883279</id>
+    </Compile>
+    <Compile Include="Password_Enter.cs">
+      <BoundTo>2ecdf62f-7e02-4b5b-9804-9b8e790f3a5f</BoundTo>
+      <DependentUpon>Password_Enter.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f5114772-78ba-40d3-b825-66d42ad682eb</id>
+    </Compile>
+    <Compile Include="Password_Enter.UserCode.cs">
+      <BoundTo>2ecdf62f-7e02-4b5b-9804-9b8e790f3a5f</BoundTo>
+      <DependentUpon>Password_Enter.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cd664267-5b4e-4310-9ae7-ba9e8eb05220</id>
     </Compile>
     <Compile Include="Program.cs">
       <id>f2a445e1-2aff-42ac-bf7b-a42cc232cb4a</id>
@@ -268,10 +352,30 @@
       <id>e20e5297-d107-4fcb-8321-38898e3d0354</id>
       <recordtableid>65eb6c5e-3de7-47ee-a947-c5804750c271</recordtableid>
     </None>
+    <None Include="Connect_Button.rxrec">
+      <BoundTo>6a141de0-9da2-4f76-8846-305882983ee7</BoundTo>
+      <id>b898235b-96a6-4d91-ad36-cc2a1ef3e591</id>
+      <recordtableid>0e60b89d-9402-46f1-ab47-e390506e3e02</recordtableid>
+    </None>
+    <None Include="Connect_Click.rxrec">
+      <BoundTo>6a141de0-9da2-4f76-8846-305882983ee7</BoundTo>
+      <id>080f185a-1abf-473e-a346-d69ebe23bdcb</id>
+      <recordtableid>2c8cb06b-7b41-487b-9b91-e7f71da2364a</recordtableid>
+    </None>
     <None Include="Delay2s.rxrec">
       <BoundTo>6a141de0-9da2-4f76-8846-305882983ee7</BoundTo>
       <id>386e38cc-9d46-429d-a317-8036ef54e19a</id>
       <recordtableid>7641718b-b040-4a60-8281-c498d07342da</recordtableid>
+    </None>
+    <None Include="Enter_Credentials.rxrec">
+      <BoundTo>6a141de0-9da2-4f76-8846-305882983ee7</BoundTo>
+      <id>916723f0-7266-4640-b0e8-000ce5d73eed</id>
+      <recordtableid>8059d74b-4da0-4464-9be9-c4dd10347257</recordtableid>
+    </None>
+    <None Include="Enter_Username.rxrec">
+      <BoundTo>6a141de0-9da2-4f76-8846-305882983ee7</BoundTo>
+      <id>4c10bca0-4f13-4496-88c8-930c3c6072dd</id>
+      <recordtableid>3531736e-cbbc-4e98-b0ee-caeaf72c05ce</recordtableid>
     </None>
     <None Include="LoginModule.rxrec">
       <BoundTo>6a141de0-9da2-4f76-8846-305882983ee7</BoundTo>
@@ -282,6 +386,21 @@
       <BoundTo>6a141de0-9da2-4f76-8846-305882983ee7</BoundTo>
       <id>5978512a-90aa-47fe-885f-f45014c1cfc3</id>
       <recordtableid>30f2c18a-3453-42db-ba1e-1a2dcdbc0c1e</recordtableid>
+    </None>
+    <None Include="Next_Click.rxrec">
+      <BoundTo>6a141de0-9da2-4f76-8846-305882983ee7</BoundTo>
+      <id>73e5c242-ce0e-4282-9f3d-e8ff799ed7c9</id>
+      <recordtableid>e44b02d4-9887-4544-adbc-cabcf1b8bf23</recordtableid>
+    </None>
+    <None Include="Passwordviaconnect.rxrec">
+      <BoundTo>6a141de0-9da2-4f76-8846-305882983ee7</BoundTo>
+      <id>beb66423-aa33-4589-9fa0-7d82402a9794</id>
+      <recordtableid>b3112a88-8dd8-4037-9652-6c198e41bed3</recordtableid>
+    </None>
+    <None Include="Password_Enter.rxrec">
+      <BoundTo>6a141de0-9da2-4f76-8846-305882983ee7</BoundTo>
+      <id>2ecdf62f-7e02-4b5b-9804-9b8e790f3a5f</id>
+      <recordtableid>6615c7ed-27ac-4549-8f86-60488f79b0e7</recordtableid>
     </None>
     <None Include="Recording1.rxrec">
       <BoundTo>6a141de0-9da2-4f76-8846-305882983ee7</BoundTo>

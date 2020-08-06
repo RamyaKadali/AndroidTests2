@@ -24,47 +24,34 @@ namespace AndroidTest
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The StartVBS recording.
+    ///The Connect_Button recording.
     /// </summary>
-    [TestModule("ec9fbe99-1523-4e2f-a0b2-da49e9019521", ModuleType.Recording, 1)]
-    public partial class StartVBS : ITestModule
+    [TestModule("0e60b89d-9402-46f1-ab47-e390506e3e02", ModuleType.Recording, 1)]
+    public partial class Connect_Button : ITestModule
     {
         /// <summary>
         /// Holds an instance of the AndroidTestRepository repository.
         /// </summary>
         public static AndroidTestRepository repo = AndroidTestRepository.Instance;
 
-        static StartVBS instance = new StartVBS();
+        static Connect_Button instance = new Connect_Button();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public StartVBS()
+        public Connect_Button()
         {
-            varMobileDevice = "USB-8BFY0YN86";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static StartVBS Instance
+        public static Connect_Button Instance
         {
             get { return instance; }
         }
 
 #region Variables
-
-        string _varMobileDevice;
-
-        /// <summary>
-        /// Gets or sets the value of variable varMobileDevice.
-        /// </summary>
-        [TestVariable("45a6f65b-113d-435d-9662-ab20f4d8343f")]
-        public string varMobileDevice
-        {
-            get { return _varMobileDevice; }
-            set { _varMobileDevice = value; }
-        }
 
 #endregion
 
@@ -92,9 +79,9 @@ namespace AndroidTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run mobile app 'com.vodafone.viewer' on device 'USB-8BFY0YN86'.", new RecordItemIndex(0));
-            Host.Local.RunMobileApp("USB-8BFY0YN86", "com.vodafone.viewer", true);
-            Delay.Milliseconds(3500);
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComVodafoneViewer.Connect_Button1' at Center", repo.ComVodafoneViewer.Connect_Button1Info, new RecordItemIndex(0));
+            repo.ComVodafoneViewer.Connect_Button1.Touch();
+            Delay.Milliseconds(300);
             
         }
 
